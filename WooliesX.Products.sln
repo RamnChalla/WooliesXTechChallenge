@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Products.Api", "src\WooliesX.Products.Api\WooliesX.Products.Api.csproj", "{5191C81B-E54E-46C1-ABA3-61FCE279AA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Products.Data", "src\WooliesX.Products.Data\WooliesX.Products.Data.csproj", "{FBE46929-A1DD-46B8-ABDE-D17F0707BBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Products.Domain", "src\WooliesX.Products.Domain\WooliesX.Products.Domain.csproj", "{D624471B-65E8-412C-A0EA-9199088094C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Products.Core", "src\WooliesX.Products.Core\WooliesX.Products.Core.csproj", "{D5578790-954B-40C3-A4CA-2BB132329192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Products.Api.Tests", "src\WooliesX.Products.Api.Tests\WooliesX.Products.Api.Tests.csproj", "{C7592406-D1B8-4981-8503-7ADD5BE9BB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesX.Products.Data.Tests", "src\WooliesX.Products.Data.Tests\WooliesX.Products.Data.Tests.csproj", "{2E800140-D2EF-4E9F-B9A2-E0FB4157F5F8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5191C81B-E54E-46C1-ABA3-61FCE279AA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5191C81B-E54E-46C1-ABA3-61FCE279AA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5191C81B-E54E-46C1-ABA3-61FCE279AA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5191C81B-E54E-46C1-ABA3-61FCE279AA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE46929-A1DD-46B8-ABDE-D17F0707BBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE46929-A1DD-46B8-ABDE-D17F0707BBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE46929-A1DD-46B8-ABDE-D17F0707BBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE46929-A1DD-46B8-ABDE-D17F0707BBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D624471B-65E8-412C-A0EA-9199088094C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D624471B-65E8-412C-A0EA-9199088094C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D624471B-65E8-412C-A0EA-9199088094C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D624471B-65E8-412C-A0EA-9199088094C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5578790-954B-40C3-A4CA-2BB132329192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5578790-954B-40C3-A4CA-2BB132329192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5578790-954B-40C3-A4CA-2BB132329192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5578790-954B-40C3-A4CA-2BB132329192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7592406-D1B8-4981-8503-7ADD5BE9BB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7592406-D1B8-4981-8503-7ADD5BE9BB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7592406-D1B8-4981-8503-7ADD5BE9BB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7592406-D1B8-4981-8503-7ADD5BE9BB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E800140-D2EF-4E9F-B9A2-E0FB4157F5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E800140-D2EF-4E9F-B9A2-E0FB4157F5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E800140-D2EF-4E9F-B9A2-E0FB4157F5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E800140-D2EF-4E9F-B9A2-E0FB4157F5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
