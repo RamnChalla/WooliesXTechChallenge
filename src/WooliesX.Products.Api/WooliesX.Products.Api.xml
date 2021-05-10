@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WooliesX.Products.Api</name>
+    </assembly>
+    <members>
+        <member name="M:WooliesX.Products.Api.Controllers.UserController.GetUser">
+            <summary>
+            Gets the User with the specified unique identifier.
+            </summary>
+            <param name="command">The action command.</param>
+            <param name="cancellationToken">The cancellation token used to cancel the HTTP request.</param>
+            <returns>A 200 OK response containing the User or a 404 Not Found if a User with the specified unique
+            identifier was not found.</returns>
+        </member>
+        <member name="T:WooliesX.Products.Api.CustomServiceCollectionExtensions">
+            <summary>
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> extension methods which extend ASP.NET Core services.
+            </summary>
+        </member>
+        <member name="M:WooliesX.Products.Api.CustomServiceCollectionExtensions.AddCustomRouting(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add custom routing settings which determines how URL's are generated.
+            </summary>
+            <param name="services">The services.</param>
+            <returns>The services with routing services added.</returns>
+        </member>
+        <member name="M:WooliesX.Products.Api.CustomServiceCollectionExtensions.AddCustomSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds Swagger services and configures the Swagger services.
+            </summary>
+            <param name="services">The services.</param>
+            <returns>The services with Swagger services added.</returns>
+        </member>
+        <member name="M:WooliesX.Products.Api.Mapper.IMapper`2.Map(`0,`1)">
+            <summary>
+            Maps an object of type TSource to TDestination.
+            </summary>
+            <param name="source"></param>
+            <param name="destination"></param>
+        </member>
+        <member name="M:WooliesX.Products.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Initializes a new instance of the <see cref="T:WooliesX.Products.Api.Startup"/> class.
+            </summary>
+            <param name="configuration">The application configuration, where key value pair settings are stored.</param>
+            <param name="webHostEnvironment">The environment the application is running under. This can be Development,Staging or Production by default.</param>
+        </member>
+        <member name="M:WooliesX.Products.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Method to add services to the container.
+            </summary>
+        </member>
+        <member name="T:WooliesX.Products.Api.ViewModels.User">
+            <summary>
+            A User view model.
+            </summary>
+        </member>
+        <member name="P:WooliesX.Products.Api.ViewModels.User.Name">
+            <summary>
+            Gets or sets the user name.
+            </summary>
+            <example>Niel</example>
+        </member>
+        <member name="P:WooliesX.Products.Api.ViewModels.User.Token">
+            <summary>
+            Gets or sets the user token.
+            </summary>
+            <example>xyz</example>
+        </member>
+    </members>
+</doc>
