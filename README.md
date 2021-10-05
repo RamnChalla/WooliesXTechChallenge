@@ -12,7 +12,7 @@ Project Structure
     Solution contains folders - for each project
     NUnit Test Project is used for testing controller and domain/services.
     Moq is used for mocking
-    web api project contains 3 main part - repository, services and Commands.
+    web api project contains 3 main parts - repository, services and Commands.
     test folder contains test cases to test only controller services. Additional time required to cover all the testing/
 
 Technical debts:
